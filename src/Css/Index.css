@@ -1,0 +1,273 @@
+body {
+    background:  #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px
+}
+button {
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 0 0 -8px;
+    padding: 0;
+    overflow: hidden;
+    background: #091015;  /* fallback for old browsers */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: rgb(251, 251, 251);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+ 
+li a:hover {
+    color: rgb(241, 222, 222);
+    opacity: 0.6;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.containerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonWallet {
+    margin-top: 8px;
+    margin-left: 900px;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    height: 32px;
+    padding: 0px 16px;
+    background-color: rgb(31, 199, 212);
+    color: white;
+}
+.buttonWallet:hover{
+    opacity: 0.7;
+}
+
+.img-icono {
+    width: 50px;
+}
+
+.containerDivSendBTC {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+    height: 400px;
+    width: 1000px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.titleSendBTC {
+    display: flex;
+    margin: 20px auto;
+    flex-direction: column;
+    align-items: center;
+    height: 32px;
+    padding: 8px 16px;
+    background-color: rgb(31, 199, 212);
+    color: white;
+    border: 0px;
+    border-radius: 16px;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+}
+
+.formSendBTC {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 110px;
+}
+
+.mainImage {
+    width: 25%;
+}
+
+.containerInsideSendBTC {
+    display: flex;
+    flex-direction: column;
+    margin: 4px auto;
+}
+
+.bitcoinPriceP{
+    margin: 15px 0 0 10px;
+    color: white;
+}
+
+.bitcoinPrice {
+    margin: 10px 0 0 8px;
+}
+
+.BtcIcon {
+    width: 30px;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: row;
+    margin: 150px 90px;
+}
+.container-text-home {
+    flex-direction: row;
+}
+.cardContainerdetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    width:500px;
+    color: white;
+    background: #2426257f;
+    border-radius: 0.5rem;
+    z-index: -1;
+}
+
+.cardContainerdetail:hover {
+    transform: scale(1.02);
+    opacity:0.5;
+}
+
+.containerDetail {
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+}
+
+.insideContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 50%;
+    border-radius: 30px;
+    background: rgb(154, 106, 255);
+}
+
+.p-detailtext {
+    font-size: 30px;
+    color: rgb(154, 106, 255);
+    text-shadow: 0 0 7px black;
+}
+
+.historyContainer {
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    width:500px;
+    color: white;
+    background: #2426257f;
+    border-radius: 0.5rem;
+}
+
+.user-connected{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 80px 40px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    opacity: 0.8;
+    width: 28%;
+    border-radius: 16px;
+    z-index: -1;
+}
+
+.container-user {
+    z-index: -1;
+}
+
+.header-user {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 100px 20px;
+    font-size: 80px;
+    color: rgb(154, 106, 255);
+    text-shadow: 0 0 9px black;
+}
+
+h2 {
+    margin: -50px 20px;
+    font-size: 28px;
+    color: white;
+    text-shadow: 0 0 6px black;
+}
+
+span {
+    font-weight: bold;
+}
+
+.label-history {
+    margin: 10px;
+}
+
+.errorContainer {
+    display: flex;
+    margin: 100px;
+}
+
+.pGasprice {
+    margin: 10px 0;
+}
